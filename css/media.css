@@ -1,0 +1,1030 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1920px) {
+    /*Контент слайдера на головній сторінці*/
+    #first-slider .content {
+        margin-left: 23%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 1760px) {
+    /*Контент слайдера на головній сторінці*/
+    #first-slider .content {
+        margin-left: 16%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    /*Контент слайдера на головній сторінці*/
+    #first-slider .content {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    /*Кнопка меморандум на сиорінці маршрутів*/
+    .rout .buttns .memorandum {
+        margin-left: 70px;
+    }
+
+
+}
+
+@media only screen and (max-width : 1440px) {
+}
+
+
+@media only screen and (max-width : 1300px) {
+    /*Про маршрут на сторінці маршрутів*/
+    .rout .abt_rout .route {
+        width: 66%;
+        margin-right: 5%;
+    }
+    /*Кнопки у блоці про маршрут на сторінці маршрутів*/
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 28%;
+    }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    /*Кнопки у блоці про компанію на головній сторінці*/
+    .company .btns {
+        margin-top: 30px;
+        margin-left: 26%;
+    }
+    .company .abt_us .us {
+        width: 67%;
+        margin-right: 7%;
+    }
+
+    /*Розклад руху на сторінці маршрутів*/
+    .timetable {
+        float: none;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .timetable .tabletime {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    /*Сторінка маршрутів*/
+    .main_routes .aeroport {
+        margin-left: 10%;
+    }
+    .main_routes .marshrut {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .bus_container .bus_icons {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    /*Про маршрут на сторінці маршрутів*/
+    .rout .abt_rout .route {
+        width: 68%;
+        margin-right: 12%;
+    }
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 23%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    /*Ставимо сірий border при наведенні і взагалі в меню*/
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: #000000;
+        border: 1px solid #f7f7f7!important;
+    }
+    .navbar-inverse .navbar-nav > li > a::before {
+        border-top: 1px solid #f7f7f7;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover::before {
+        border-left: 1px solid #f7f7f7;
+        border-right: 1px solid #f7f7f7;
+    }
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+        border: 1px solid #f7f7f7;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        background-color: #f7f7f7;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: #000000;
+    }
+    .navbar-inverse .navbar-nav > li > a::before, .navbar-inverse .navbar-nav > li > a::after {
+        top: 0;
+        left: 0;
+    }
+    .navbar-inverse .navbar-nav > li > a::before {
+        border: 1px solid transparent;
+        border-radius: 25px;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover::before {
+        border-right-color: #ffffff;
+        border-bottom-color: #ffffff;
+        border-left-color: #ffffff;
+        border-radius: 25px;
+    }
+    .navbar-inverse .navbar-nav > li > a::after {
+        border: 0 solid transparent;
+        border-radius: 25px;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover::after {
+        border-top: 1px solid #ffffff;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-radius: 25px;
+    }
+    .navbarcontainer {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #000000;
+        font-weight: 800;
+        margin-left: -100px;
+    }
+    .navbar-nav > li > .dropdown-menu >li >a:hover, .navbar-nav > li > .dropdown-menu >li >a:focus {
+        color: #000000;
+    }
+    .navbar-nav > li > .dropdown-menu {
+        background-color: #413e64;
+        margin-top: -1000px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: -100px;
+    }
+    /*Сірий фон на активній силці*/
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+        background-color: #f7f7f7;
+    }
+    /*Сірий фон у відритого drop-down*/
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #f7f7f7;
+    }
+
+    /*Прибираємо випадання кнопок у футері слайдера*/
+    .slider_botline_info .our_routes:hover .but_our_routes, .slider_botline_info .our_buses:hover .but_our_buses,
+    .slider_botline_info .our_routes:focus .but_our_routes, .slider_botline_info .our_buses:hover .but_our_buses {
+        display:none;
+    }
+    .slider_botline_info .our_routes:hover  p, .slider_botline_info .our_routes:focus  p,
+    .slider_botline_info .our_buses:hover  p, .slider_botline_info .our_buses:focus  p{
+        margin-top: -50px;
+    }
+
+    /*Соц. мережі в футері головної сторінки*/
+    .soc_buttons {
+        float: none;
+        margin-top: 20px;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: 30%;
+    }
+    .bus_container {
+        height: auto;
+    }
+    .title_bus {
+        margin-top: 60px;
+    }
+    .bus_icons {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .bus_descr {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-bottom: 20px;
+    }
+    .bus_descr .gallery_but {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .rout {
+        max-width: 100%;
+        height: -webkit-fill-available;
+        float: none;
+    }
+    .bus_container .bus_icons {
+        margin-top: 40px;
+    }
+
+    /*Таблиця розкладу руху*/
+    .timetable .table {
+        position: absolute;
+        /*margin-left: -15px;*/
+        margin-top: 0px;
+    }
+
+    /*звертання меню при 992 а не 768*/
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        margin-top: 10px;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    /**********************/
+
+    /*Контент слайдера на головній сторінці*/
+    #first-slider .content {
+        margin-left: 20%;
+        width: 70%;
+    }
+    #first-slider .carousel-indicators {
+        bottom: 250px;
+        top: 40px;
+    }
+
+    /*Партнери на головній*/
+    .partners {
+        display: none;
+    }
+
+    /*Про компанію на головній*/
+    .company .abt_us .us {
+        margin-right: 22%;
+    }
+    .company .btns {
+        margin-left: 23%;
+    }
+    .company .abt_us {
+        width: 100%;
+        background-image: url(../img/company_001.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: auto;
+    }
+    .company .img {
+        width: 100%;
+        background-image: url(../img/company_02.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 600px;
+    }
+    .company {
+        max-width: 100%;
+        height: 1200px;
+    }
+    .wrap {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Контакти та форма зворотнього звязку на головній*/
+    #contacts, #callback {
+        margin-top: 50px;
+    }
+
+    /*Футер слайдера*/
+    .slider_botline_info .icon_our_buses {
+        margin-left: 25px;
+        margin-top: -20px;
+    }
+    .slider_botline_info .our_buses {
+        float: none;
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_botline_info .our_routes {
+        float: none;
+        margin-top: -20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_botline_info {
+        height: 200px;
+    }
+
+    /*Карта проїзду та контакти на головній*/
+    #map_container {
+        height: 720px;
+    }
+    #map {
+        height: 720px;
+    }
+    #contacts, #callback {
+        top: 0px;
+    }
+
+    /*Футер*/
+    .main_footer .footer_main {
+        margin-left: 20%;
+    }
+    footer.pink {
+        background-image: url(../img/footer_pink_min.jpg);
+        height: 440px;
+    }
+    footer.blue {
+        background-image: url(../img/footer_blue_min.jpg);
+        height: 440px;
+    }
+    .main_footer {
+        background-image: url(../img/footer_blue_min.jpg);
+        height: 440px;
+    }
+
+    /*Маршрути на сторінці маршрутів*/
+    .nav_routes {
+        display: none;
+    }
+    .our_routes {
+        width: 215px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rout .skybus {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-top: 420px;
+        background-image: url(../img/route_001.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /*height: 620px;*/
+    }
+    .rout .abt_rout {
+        float: left;
+        display: block;
+        width: 100%;
+        margin-top: 420px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /*height: 620px;*/
+    }
+    .rout .map_routes_container {
+        float: none;
+        display: block;
+        position: relative;
+        height: 420px;
+    }
+    .rout .abt_rout .route {
+        width: 67%;
+        margin-right: 12%;
+    }
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 21%;
+    }
+    #map_routes {
+        position: absolute;
+        width: 100%;
+        height: 420px;
+        /*top: -1309px;*/
+        margin-left: 0%;
+        margin-bottom: 0px;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .nav_buses {
+        display: none;
+    }
+    .timetable .table {
+        position: relative;
+        margin-top: 100px;
+    }
+    .tram_schedule {
+        /*margin-top: 400px;*/
+        padding-bottom: 50px;
+        margin-left: 0%;
+    }
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /*Приховуємо стрілки(вперед,назад) у слайдера*/
+    .carousel-control .left, .carousel-control .right {
+        display: none;
+    }
+
+
+    /*Футер слайдера*/
+    .slider_botline_info .our_routes:hover p, .slider_botline_info .our_routes:focus p, .slider_botline_info .our_buses:hover p, .slider_botline_info .our_buses:focus p {
+        margin-top: -40px;
+    }
+
+    /*Соц. мережі у футері головної сторінки*/
+    .soc_buttons {
+        margin-top: -150px;
+    }
+
+    /*Футер*/
+    .main_footer .nav_footer {
+        width: 0px;
+    }
+
+    /*Таблиця розкладу руху*/
+    .timetable .tabletime {
+        margin-left: 15%;
+    }
+    .timetable td {
+        padding: 8px 20px;
+    }
+
+    /*Меню в мобільній версії*/
+    #bs-example-navbar-collapse-1 {
+        margin-left: -30px;
+        margin-right: -31px;
+        margin-bottom: -21px;
+        padding-left: 30px;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*Слайдер*/
+    #first-slider .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #first-slider .content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Прибираємо випадання кнопок у футері слайдера*/
+    .slider_botline_info .our_routes:hover .but_our_routes, .slider_botline_info .our_buses:hover .but_our_buses,
+    .slider_botline_info .our_routes:focus .but_our_routes, .slider_botline_info .our_buses:hover .but_our_buses {
+        display:none;
+    }
+    .slider_botline_info .our_routes:hover  p, .slider_botline_info .our_routes:focus  p,
+    .slider_botline_info .our_buses:hover  p, .slider_botline_info .our_buses:focus  p{
+        margin-top: -50px;
+    }
+
+    /*Сторінка маршрутів*/
+    .rout .abt_rout .route {
+        width: 73%;
+        margin-right: 12%;
+    }
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+
+
+
+    .main_footer .footer_main, .main_footer .footer_routes {
+        display: none;
+    }
+    .prev_button, .next_button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .timetable .tabletime {
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    /*Розклад руху на маршрутах*/
+    .timetable .tabletime {
+        margin-left: 8%;
+    }
+    /*Текстовий контент слайдера*/
+    #first-slider .content {
+    }
+    .content h3{
+        font-size: 38px;
+        text-transform: uppercase;
+        font-weight:500;
+    }
+    .content h4{
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight:800;
+    }
+    .content h5{
+        font-size: 11px;
+        font-style: italic;
+        line-height: 1.8;
+        font-weight:300;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: 25%;
+    }
+
+    /*Про компанію на головній*/
+    .company .abt_us .us {
+        margin-right: 15%;
+        width: 65%;
+    }
+    .company .btns {
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .timetable .tabletime {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    /*Футер слайдера на головній*/
+    .slider_botline_info .our_buses {
+        margin-top: 35px;
+        width: 320px;
+    }
+    .slider_botline_info .our_routes {
+        width: 320px;
+    }
+    .slider_botline_info  p {
+        display: none;
+    }
+    .slider_botline_info  span {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width : 540px) {
+    /*Розклад руху на маршрутах*/
+    .timetable .tabletime {
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width : 510px) {
+    /*Про компанію*/
+    .company h3 {
+        margin-top: 60px;
+    }
+
+    /*Маршрути на сторінці маршрутів*/
+    .rout .abt_rout .route {
+        width: 92%;
+        margin-right: 1%;
+    }
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: 20%;
+    }
+
+    /*Таблиця розкладу руху*/
+    .timetable .tabletime {
+        margin-left: 5%;
+    }
+    .timetable td {
+        padding: 8px 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    /*Текстовий контент слайдера*/
+    #first-slider .content {
+    }
+    .content h3{
+        font-size: 38px;
+        text-transform: uppercase;
+        font-weight:500;
+    }
+    .content h4{
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight:800;
+    }
+    .content h5{
+        font-size: 11px;
+        font-style: italic;
+        line-height: 1.8;
+        font-weight:300;
+    }
+
+    /*Про компанію на головній*/
+    .company .abt_us .us {
+        margin-right: 8%;
+        width: 80%;
+    }
+    .company .btns {
+        margin-top: 20px;
+        margin-left: 12%;
+    }
+    .company h3 {
+        margin-top: 60px;
+    }
+    .company p {
+        /*line-height: 1.8;*/
+    }
+
+    /*Футер*/
+    .main_footer .footer_main {
+        margin-left: 1%;
+    }
+
+    /*Маршрути на сторінці маршрутів*/
+    .rout .buttns .memorandum {
+        margin-left: 0px;
+    }
+    .rout .buttns {
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+
+    /*Розклад руху на маршрутах*/
+    .tram_schedule {
+        width: 90%;
+    }
+    .timetable .tabletime {
+        margin-left: 3%;
+    }
+
+    /*Автобуси на маршрутах*/
+    .our_bus {
+        width: 200px;
+        margin-left: 0%;
+        margin-right: auto;
+    }
+
+}
+
+
+@media only screen and (max-width : 465px) {
+    /*Сторінка новин*/
+    .news_buttn {
+        margin-top: -6px;
+    }
+    .news_short_content h3 {
+        text-align: left;
+        color: #413e64;
+        margin-top: -20px;
+    }
+    .news .opened {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (max-width : 460px) {
+    /*Розклад руху на маршрутах*/
+    .timetable .tabletime {
+        margin-left: 0%;
+    }
+
+}
+
+@media only screen and (max-width : 454px) {
+}
+
+@media only screen and (max-width : 446px) {
+    /*Футер слайдера на головній*/
+    .slider_botline_info .our_buses, .slider_botline_info .our_routes {
+        width: 320px;
+        margin-left: -8%;
+    }
+}
+
+@media only screen and (max-width : 436px) {
+    /*Футер слайдера на головній*/
+    .timetable .tabletime {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width : 435px) {
+    /*Футер слайдера на головній*/
+    .timetable .table_header {
+        font-size: 8px;
+    }
+
+    /*Маршрути автобусів на сторінці маршрутів*/
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        width: 300px;
+    }
+    .main_routes .aeroport .aeroport_img,
+    .main_routes .vokzal .vokzal_img,
+    .main_routes .marshrut .marshrut_img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width : 400px) {
+    /*Текстовий контент слайдера*/
+    #first-slider .content {
+        margin-left: 15px;
+    }
+    .content h5 {
+        width: 130%;
+    }
+
+    /*Маршрути на сторінці маршрутів*/
+    .rout .abt_rout .route .route_icons {
+        /*margin-left: 0px;*/
+        /*margin-top: 250px;*/
+    }
+    .rout .skybus .route .route_icons {
+        /*margin-left: 0px;*/
+        /*margin-top: 230px;*/
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: 10%;
+    }
+
+    /*Таблиця розкладу руху*/
+    .timetable .table_header {
+        font-size: 8px;
+    }
+
+    /*Сторінка маршрутів*/
+    #map_routes {
+        top: -1509px;
+    }
+    .rout .buttns a {
+        padding: 15px 20px 15px 20px;
+    }
+
+    /*Сторінка новин*/
+    .news .send_icon {
+        display: none;
+        float: none;
+        margin-top: 23px;
+        margin-left: -76px;
+        background-image: url(../img/icon_send.png);
+        width: 40px;
+        height: 40px;
+    }
+    .news .print_icon {
+        display: none;
+        float: none;
+        margin-top: 87px;
+        margin-left: -133px;
+        background-image: url(../img/icon_print.png);
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media only screen and (max-width : 400px) {
+    /*Сторінка маршрутів*/
+    .rout {
+        /*height: 820px;*/
+    }
+    .rout .abt_rout {
+        /*height: 820px;*/
+    }
+}
+
+
+@media only screen and (max-width : 340px) {
+    /*Про компанію*/
+    .company p {
+        /*line-height: 1.6;*/
+    }
+
+    /*Маршрути автобусів на сторінці маршрутів*/
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        width: 280px;
+    }
+    .main_routes .aeroport .aeroport_img,
+    .main_routes .vokzal .vokzal_img,
+    .main_routes .marshrut .marshrut_img {
+        width: 280px;
+        height: 280px;
+    }
+    /*Розклад руху на маршрутах*/
+    .timetable td {
+        padding: 8px 0px;
+    }
+}
+
+@media only screen and (max-width : 375px) {
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: -1%;
+    }
+
+    /*Футер слайдера на голвній*/
+    .slider_botline_info .our_buses, .slider_botline_info .our_routes {
+        width: 320px;
+        margin-left: -18%;
+    }
+
+}
+
+@media only screen and (max-width : 352px) {
+    /*Маршрути автобусів на сторінці маршрутів*/
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        width: 270px;
+    }
+    .main_routes .aeroport .aeroport_img,
+    .main_routes .vokzal .vokzal_img,
+    .main_routes .marshrut .marshrut_img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width : 346px) {
+    /*Описання маршруту на сторінці маршрутів*/
+    .rout .buttns a {
+        padding: 15px 15px 15px 15px;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: -18%;
+    }
+
+    /*Маршрути автобусів на сторінці маршрутів*/
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        width: 240px;
+    }
+    .main_routes .aeroport .aeroport_img,
+    .main_routes .vokzal .vokzal_img,
+    .main_routes .marshrut .marshrut_img {
+        width: 240px;
+        height: 240px;
+    }
+
+    /*Футер слайдера на головній*/
+    .slider_botline_info .our_buses, .slider_botline_info .our_routes {
+        width: 320px;
+        margin-left: -31%;
+    }
+
+    /*Кнопка меморандум на маршрутах*/
+    .rout .buttns .memorandum {
+        margin-left: 0px;
+        padding: 15px 20px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    /*Розміщення контактів на головній сторінці*/
+    .wrap {
+        margin-right: -5%;
+    }
+
+    /*Про компанію*/
+    .company h3 {
+        margin-top: 15px;
+    }
+    .company p {
+        /*line-height: 1.6;*/
+    }
+    .company .abt_us .us {
+        margin-right: 5%;
+        width: 90%;
+    }
+    .company .btns {
+        margin-left: 5%;
+    }
+
+    /*Автобуси на сторінці автобусів*/
+    .buses_info .our_buses {
+        margin-left: -11%;
+    }
+
+    /*Таблиця розкладу на сторінці маршрутів*/
+    .timetable .table_header {
+        padding: 8px 0px;
+    }
+
+    /*Опис маршрута на сторінці маршрутів*/
+    .rout .abt_rout .route .route_icons {
+        margin-left: 5px;
+    }
+    .timetable .tabletime {
+        margin-left: -4%;
+    }
+
+    /*Футер слайдера на головній*/
+    .slider_botline_info .our_buses, .slider_botline_info .our_routes {
+        width: 320px;
+        margin-left: -42%;
+    }
+}
+
+
+@media only screen and (max-width : 300px) {
+    /*Маршрути автобусів на сторінці маршрутів*/
+    .main_routes .aeroport, .main_routes .vokzal, .main_routes .marshrut {
+        width: 220px;
+    }
+    .main_routes .aeroport .aeroport_img,
+    .main_routes .vokzal .vokzal_img,
+    .main_routes .marshrut .marshrut_img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
